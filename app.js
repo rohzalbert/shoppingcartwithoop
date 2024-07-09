@@ -83,7 +83,7 @@ class ShoppingCart {
       `;
       cartItemsContainer.appendChild(cartSummary);
 
-      // Update cart count in the header
+      // To update cart count in the header
       document.getElementById('cart-count').innerText = this.getTotalItems();
   }
 
@@ -139,12 +139,4 @@ function addToCart(productId) {
   }
 }
 
-// // Function to close the cart (can be implemented as needed)
-// function closeCart() {
-//   alert('Closing cart functionality can be implemented here.');
-// }
 
-// // Function to proceed to checkout (can be implemented as needed)
-// function checkout() {
-//   alert('Checkout functionality can be implemented here.');
-// }
